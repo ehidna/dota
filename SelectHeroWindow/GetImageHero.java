@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.FlowLayout;
 import java.awt.Graphics;
+import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.WindowAdapter;
@@ -15,6 +16,7 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction;
 
 public class GetImageHero extends JFrame {
 	public static BufferedImage Axe, Abaddon, AntiMage, Clinkz, CrystalMaiden,
@@ -23,6 +25,7 @@ public class GetImageHero extends JFrame {
 			QueenOfPain, Dazzle, Tidehunter, Lycan, Riki, Weaver, Batrider,
 			Lich, Pudge, ElderTitan, Venomancer, PhantomAssassin,
 			ObsidianDestroyer, Zuus;
+	private BufferedImage image;
 
 	public GetImageHero() {
 		imageShowing p = new imageShowing();
@@ -35,6 +38,109 @@ public class GetImageHero extends JFrame {
 		con.setLayout(new BorderLayout());
 		con.add(p, BorderLayout.CENTER);
 
+		addMouseListener(new MouseAdapter() {
+			public void mouseClicked(MouseEvent event) {
+				if ((event.getX() > 10 && event.getX() < 11 + 127)
+						&& (event.getY() > 79 && event.getY() < 79 + 71))
+					setImage(Axe);
+				else if ((event.getX() > 147 && event.getX() < 148 + 127)
+						&& (event.getY() > 79 && event.getY() < 79 + 71))
+					setImage(Abaddon);
+				else if ((event.getX() > 284 && event.getX() < 285 + 127)
+						&& (event.getY() > 79 && event.getY() < 79 + 71))
+					setImage(AntiMage);
+				else if ((event.getX() > 421 && event.getX() < 422 + 127)
+						&& (event.getY() > 79 && event.getY() < 79 + 71))
+					setImage(Clinkz);
+				else if ((event.getX() > 558 && event.getX() < 559 + 127)
+						&& (event.getY() > 79 && event.getY() < 79 + 71))
+					setImage(CrystalMaiden);
+				else if ((event.getX() > 695 && event.getX() < 696 + 127)
+						&& (event.getY() > 79 && event.getY() < 79 + 71))
+					setImage(Silencer);
+
+				else if ((event.getX() > 10 && event.getX() < 11 + 127)
+						&& (event.getY() > 167 && event.getY() < 167 + 71))
+					setImage(Huskar);
+				else if ((event.getX() > 147 && event.getX() < 148 + 127)
+						&& (event.getY() > 167 && event.getY() < 167 + 71))
+					setImage(Bristleback);
+				else if ((event.getX() > 284 && event.getX() < 285 + 127)
+						&& (event.getY() > 167 && event.getY() < 167 + 71))
+					setImage(Luna);
+				else if ((event.getX() > 421 && event.getX() < 422 + 127)
+						&& (event.getY() > 167 && event.getY() < 167 + 71))
+					setImage(FacelessVoid);
+				else if ((event.getX() > 558 && event.getX() < 559 + 127)
+						&& (event.getY() > 167 && event.getY() < 167 + 71))
+					setImage(SkywrathMage);
+				else if ((event.getX() > 695 && event.getX() < 696 + 127)
+						&& (event.getY() > 167 && event.getY() < 167 + 71))
+					setImage(OgreMagi);
+
+				else if ((event.getX() > 10 && event.getX() < 11 + 127)
+						&& (event.getY() > 249 && event.getY() < 249 + 71))
+					setImage(Beastmaster);
+				else if ((event.getX() > 147 && event.getX() < 148 + 127)
+						&& (event.getY() > 249 && event.getY() < 249 + 71))
+					setImage(Omniknight);
+				else if ((event.getX() > 284 && event.getX() < 285 + 127)
+						&& (event.getY() > 249 && event.getY() < 249 + 71))
+					setImage(Slark);
+				else if ((event.getX() > 421 && event.getX() < 422 + 127)
+						&& (event.getY() > 249 && event.getY() < 249 + 71))
+					setImage(PhantomLancer);
+				else if ((event.getX() > 558 && event.getX() < 559 + 127)
+						&& (event.getY() > 249 && event.getY() < 249 + 71))
+					setImage(QueenOfPain);
+				else if ((event.getX() > 695 && event.getX() < 696 + 127)
+						&& (event.getY() > 249 && event.getY() < 249 + 71))
+					setImage(Dazzle);
+
+				else if ((event.getX() > 10 && event.getX() < 11 + 127)
+						&& (event.getY() > 336 && event.getY() < 336 + 71))
+					setImage(Tidehunter);
+				else if ((event.getX() > 147 && event.getX() < 148 + 127)
+						&& (event.getY() > 336 && event.getY() < 336 + 71))
+					setImage(Lycan);
+				else if ((event.getX() > 284 && event.getX() < 285 + 127)
+						&& (event.getY() > 336 && event.getY() < 336 + 71))
+					setImage(Riki);
+				else if ((event.getX() > 421 && event.getX() < 422 + 127)
+						&& (event.getY() > 336 && event.getY() < 336 + 71))
+					setImage(Weaver);
+				else if ((event.getX() > 558 && event.getX() < 559 + 127)
+						&& (event.getY() > 336 && event.getY() < 336 + 71))
+					setImage(Batrider);
+				else if ((event.getX() > 695 && event.getX() < 696 + 127)
+						&& (event.getY() > 336 && event.getY() < 336 + 71))
+					setImage(Lich);
+
+				else if ((event.getX() > 10 && event.getX() < 11 + 127)
+						&& (event.getY() > 423 && event.getY() < 423 + 71))
+					setImage(Pudge);
+				else if ((event.getX() > 147 && event.getX() < 148 + 127)
+						&& (event.getY() > 423 && event.getY() < 423 + 71))
+					setImage(ElderTitan);
+				else if ((event.getX() > 284 && event.getX() < 285 + 127)
+						&& (event.getY() > 423 && event.getY() < 423 + 71))
+					setImage(Venomancer);
+				else if ((event.getX() > 421 && event.getX() < 422 + 127)
+						&& (event.getY() > 423 && event.getY() < 423 + 71))
+					setImage(PhantomAssassin);
+				else if ((event.getX() > 558 && event.getX() < 559 + 127)
+						&& (event.getY() > 423 && event.getY() < 423 + 71))
+					setImage(ObsidianDestroyer);
+				else if ((event.getX() > 695 && event.getX() < 696 + 127)
+						&& (event.getY() > 423 && event.getY() < 423 + 71))
+					setImage(Zuus);
+				else
+					System.out.println("disarda");
+				System.out.println(event.getX());
+				System.out.println(event.getY());
+			}
+		});
+		getImage();
 		addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent e) {
 				System.exit(0);
@@ -43,11 +149,19 @@ public class GetImageHero extends JFrame {
 
 	}
 
+	public void setImage(BufferedImage image) {
+		this.image = image;
+	}
+
+	public BufferedImage getImage() {
+		return null;
+	}
+
 	public static void main(String[] args) {
 		new GetImageHero().setVisible(true);
 	}
 
-	class imageShowing extends JPanel implements MouseListener {
+	class imageShowing extends JPanel {
 
 		public imageShowing() {
 
@@ -116,6 +230,7 @@ public class GetImageHero extends JFrame {
 
 			} catch (IOException e) {
 			}
+
 		}
 
 		@Override
@@ -158,33 +273,6 @@ public class GetImageHero extends JFrame {
 			g.drawString("AGILITY", 385, 42);
 			g.drawRect(610, 25, 150, 25);
 			g.drawString("INTELLIGENCE", 645, 42);
-		}
-
-		@Override
-		public void mouseClicked(MouseEvent e) {
-		}
-
-		@Override
-		public void mousePressed(MouseEvent e) {
-			// TODO Auto-generated method stub
-
-		}
-
-		@Override
-		public void mouseReleased(MouseEvent e) {
-			// TODO Auto-generated method stub
-
-		}
-
-		@Override
-		public void mouseEntered(MouseEvent e) {
-			// TODO Auto-generated method stub
-
-		}
-
-		@Override
-		public void mouseExited(MouseEvent e) {
-			// TODO Auto-generated method stub
 
 		}
 	}
