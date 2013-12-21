@@ -6,7 +6,6 @@ import java.awt.FlowLayout;
 import java.awt.Graphics;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
@@ -16,10 +15,12 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction;
+
+import SelectItemWindow.GetImageItem;
 
 public class GetImageHero extends JFrame {
-	public static BufferedImage Axe, Abaddon, AntiMage, Clinkz, CrystalMaiden,
+
+	private static BufferedImage Axe, Abaddon, AntiMage, Clinkz, CrystalMaiden,
 			Silencer, Huskar, Bristleback, Luna, FacelessVoid, SkywrathMage,
 			OgreMagi, Beastmaster, Omniknight, Slark, PhantomLancer,
 			QueenOfPain, Dazzle, Tidehunter, Lycan, Riki, Weaver, Batrider,
@@ -138,15 +139,16 @@ public class GetImageHero extends JFrame {
 					System.out.println("disarda");
 				System.out.println(event.getX());
 				System.out.println(event.getY());
+				setVisible(false);
+				new GetImageItem().setVisible(true);
 			}
 		});
-		getImage();
+		// getImage();
 		addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent e) {
 				System.exit(0);
 			}
 		});
-
 	}
 
 	public void setImage(BufferedImage image) {
@@ -154,19 +156,13 @@ public class GetImageHero extends JFrame {
 	}
 
 	public BufferedImage getImage() {
-		return null;
-	}
-
-	public static void main(String[] args) {
-		new GetImageHero().setVisible(true);
+		return image;
 	}
 
 	class imageShowing extends JPanel {
 
 		public imageShowing() {
-
 			try {
-
 				GetImageHero.Axe = ImageIO.read(new File(
 						"imageHeroes/axe_hphover.png"));
 				GetImageHero.Abaddon = ImageIO.read(new File(
@@ -179,6 +175,7 @@ public class GetImageHero extends JFrame {
 						"imageHeroes/crystal_maiden_hphover.png"));
 				GetImageHero.Silencer = ImageIO.read(new File(
 						"imageHeroes/silencer_hphover.png"));
+
 				GetImageHero.Huskar = ImageIO.read(new File(
 						"imageHeroes/huskar_hphover.png"));
 				GetImageHero.Bristleback = ImageIO.read(new File(
@@ -191,6 +188,7 @@ public class GetImageHero extends JFrame {
 						"imageHeroes/skywrath_mage_hphover.png"));
 				GetImageHero.OgreMagi = ImageIO.read(new File(
 						"imageHeroes/ogre_magi_hphover.png"));
+
 				GetImageHero.Beastmaster = ImageIO.read(new File(
 						"imageHeroes/beastmaster_hphover.png"));
 				GetImageHero.Omniknight = ImageIO.read(new File(
@@ -203,6 +201,7 @@ public class GetImageHero extends JFrame {
 						"imageHeroes/queenofpain_hphover.png"));
 				GetImageHero.Dazzle = ImageIO.read(new File(
 						"imageHeroes/dazzle_hphover.png"));
+
 				GetImageHero.Tidehunter = ImageIO.read(new File(
 						"imageHeroes/tidehunter_hphover.png"));
 				GetImageHero.Lycan = ImageIO.read(new File(
@@ -215,6 +214,7 @@ public class GetImageHero extends JFrame {
 						"imageHeroes/batrider_hphover.png"));
 				GetImageHero.Lich = ImageIO.read(new File(
 						"imageHeroes/lich_hphover.png"));
+
 				GetImageHero.Pudge = ImageIO.read(new File(
 						"imageHeroes/pudge_hphover.png"));
 				GetImageHero.ElderTitan = ImageIO.read(new File(
@@ -227,10 +227,8 @@ public class GetImageHero extends JFrame {
 						"imageHeroes/obsidian_destroyer_hphover.png"));
 				GetImageHero.Zuus = ImageIO.read(new File(
 						"imageHeroes/zuus_hphover.png"));
-
 			} catch (IOException e) {
 			}
-
 		}
 
 		@Override
@@ -242,24 +240,28 @@ public class GetImageHero extends JFrame {
 			g.drawImage(Clinkz, 421, 55, null);
 			g.drawImage(CrystalMaiden, 558, 55, null);
 			g.drawImage(Silencer, 695, 55, null);
+
 			g.drawImage(Huskar, 10, 142, null);
 			g.drawImage(Bristleback, 147, 142, null);
 			g.drawImage(Luna, 284, 142, null);
 			g.drawImage(FacelessVoid, 421, 142, null);
 			g.drawImage(SkywrathMage, 558, 142, null);
 			g.drawImage(OgreMagi, 695, 142, null);
+
 			g.drawImage(Beastmaster, 10, 224, null);
 			g.drawImage(Omniknight, 147, 224, null);
 			g.drawImage(Slark, 284, 224, null);
 			g.drawImage(PhantomLancer, 421, 224, null);
 			g.drawImage(QueenOfPain, 558, 224, null);
 			g.drawImage(Dazzle, 695, 224, null);
+
 			g.drawImage(Tidehunter, 10, 311, null);
 			g.drawImage(Lycan, 147, 311, null);
 			g.drawImage(Riki, 284, 311, null);
 			g.drawImage(Weaver, 421, 311, null);
 			g.drawImage(Batrider, 558, 311, null);
 			g.drawImage(Lich, 695, 311, null);
+
 			g.drawImage(Pudge, 10, 398, null);
 			g.drawImage(ElderTitan, 147, 398, null);
 			g.drawImage(Venomancer, 284, 398, null);
@@ -273,8 +275,6 @@ public class GetImageHero extends JFrame {
 			g.drawString("AGILITY", 385, 42);
 			g.drawRect(610, 25, 150, 25);
 			g.drawString("INTELLIGENCE", 645, 42);
-
 		}
 	}
-
 }
