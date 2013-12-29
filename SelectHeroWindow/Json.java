@@ -1,4 +1,4 @@
-package SelectHeroWindow;
+package selectherowindow;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

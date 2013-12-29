@@ -1,4 +1,4 @@
-package SelectHeroWindow;
+package selectherowindow;
 
 public class Heroes {
 

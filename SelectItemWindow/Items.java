@@ -1,4 +1,4 @@
-package SelectItemWindow;
+package selectitemwindow;
 
 public class Items {
 	private String name;

@@ -1,4 +1,4 @@
-package SelectItemWindow;
+package selectitemwindow;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

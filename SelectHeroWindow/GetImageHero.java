@@ -1,4 +1,6 @@
-package SelectHeroWindow;
+package selectherowindow;
+
+import game.Test;
 
 import java.awt.BorderLayout;
 import java.awt.Container;
@@ -15,8 +17,6 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-
-import SelectItemWindow.GetImageItem;
 
 public class GetImageHero extends JFrame {
 
@@ -140,7 +140,7 @@ public class GetImageHero extends JFrame {
 				System.out.println(event.getX());
 				System.out.println(event.getY());
 				setVisible(false);
-				new GetImageItem().setVisible(true);
+				new Test();
 			}
 		});
 		// getImage();

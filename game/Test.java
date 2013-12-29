@@ -1,19 +1,20 @@
 package game;
 
-import SelectHeroWindow.GetImageHero;
-import SelectItemWindow.GetImageItem;
+import selectherowindow.GetImageHero;
+import selectitemwindow.GetImageItem;
 
 public class Test {
+	public final GetImageItem item = new GetImageItem();
+
+	public Test() {
+		item.setVisible(true);
+
+	}
 
 	public static void main(String[] args) {
 		GetImageHero hero = new GetImageHero();
-		GetImageItem item = new GetImageItem();
 		hero.setVisible(true);
-		item.setVisible(false);
 
-		hero.getImage();
-
-		System.out.println(item.getImage());
 	}
 
 }

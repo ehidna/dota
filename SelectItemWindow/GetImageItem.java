@@ -1,4 +1,4 @@
-package SelectItemWindow;
+package selectitemwindow;
 
 import java.awt.BorderLayout;
 import java.awt.Container;
@@ -9,6 +9,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 
@@ -30,7 +31,7 @@ public class GetImageItem extends JFrame {
 	private BufferedImage image;
 
 	public GetImageItem() {
-		
+
 		imageShowing p = new imageShowing();
 
 		JPanel pnlTools = new JPanel();
@@ -136,6 +137,10 @@ public class GetImageItem extends JFrame {
 
 	}
 
+	public int sayi(int a) {
+		return a;
+	}
+
 	public void setImage(BufferedImage image) {
 		this.image = image;
 	}
@@ -150,79 +155,55 @@ public class GetImageItem extends JFrame {
 
 			try {
 				System.out.println("Basladi");
-				UltimateOrb = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/14/Ultimate_Orb_icon.png");
-				StaffOrbWizardry = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8a/Staff_of_Wizardry_icon.png");
-				BladeOfAlacrity = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a2/Blade_of_Alacrity_icon.png");
-				OgreClub = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/dc/Ogre_Club_icon.png");
-				ScytheOfVyse = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/54/Scythe_of_Vyse_icon.png");
-				RefresherOrb = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e2/Refresher_Orb_icon.png");
-				OrchidMalevolence = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/ad/Orchid_Malevolence_icon.png");
-				AghanimScepter = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/07/Aghanim%27s_Scepter_icon.png");
-				AbyssalBlade = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3b/Abyssal_Blade_icon.png");
-				DivineRapier = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b1/Divine_Rapier_icon.png");
-				Butterfly = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/28/Butterfly_icon.png");
-				Daedalus = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/24/Daedalus_icon.png");
-				HeartOfTarrasque = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/75/Heart_of_Tarrasque_icon.png");
-				AssaultCuirass = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d3/Assault_Cuirass_icon.png");
-				LinkensSphere = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/23/Linken%27s_Sphere_icon.png");
-				Bloodstone = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5a/Bloodstone_icon.png");
-				Satanic = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/dd/Satanic_icon.png");
-				EyeOfSkadi = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1e/Eye_of_Skadi_icon.png");
-				Mjollnir = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9d/Mjollnir_icon.png");
-				SangeAndYasha = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b4/Sange_and_Yasha_icon.png");
-				SacredRelic = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7c/Sacred_Relic_icon.png");
-				Eaglesong = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9a/Eaglesong_icon.png");
-				Reaver = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/37/Reaver_icon.png");
-				MysticStaff = new URL(
-						"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/29/Mystic_Staff_icon.png");
 
-				GetImageItem.UOrb = ImageIO.read(UltimateOrb);
-				GetImageItem.SOWizardry = ImageIO.read(StaffOrbWizardry);
-				GetImageItem.BOAlacrity = ImageIO.read(BladeOfAlacrity);
-				GetImageItem.OClub = ImageIO.read(OgreClub);
-				GetImageItem.SOVyse = ImageIO.read(ScytheOfVyse);
-				GetImageItem.Refresh = ImageIO.read(RefresherOrb);
-				GetImageItem.Orchid = ImageIO.read(OrchidMalevolence);
-				GetImageItem.Aghanim = ImageIO.read(AghanimScepter);
-				GetImageItem.Abyssal = ImageIO.read(AbyssalBlade);
-				GetImageItem.Divine = ImageIO.read(DivineRapier);
-				GetImageItem.BFly = ImageIO.read(Butterfly);
-				GetImageItem.Daeda = ImageIO.read(Daedalus);
-				GetImageItem.HOT = ImageIO.read(HeartOfTarrasque);
-				GetImageItem.Assault = ImageIO.read(AssaultCuirass);
-				GetImageItem.Linken = ImageIO.read(LinkensSphere);
-				GetImageItem.Bstone = ImageIO.read(Bloodstone);
-				GetImageItem.Satan = ImageIO.read(Satanic);
-				GetImageItem.Skadi = ImageIO.read(EyeOfSkadi);
-				GetImageItem.Mjo = ImageIO.read(Mjollnir);
-				GetImageItem.SY = ImageIO.read(SangeAndYasha);
-				GetImageItem.Relic = ImageIO.read(SacredRelic);
-				GetImageItem.Eagle = ImageIO.read(Eaglesong);
-				GetImageItem.Reav = ImageIO.read(Reaver);
-				GetImageItem.MStaff = ImageIO.read(MysticStaff);
+				GetImageItem.UOrb = ImageIO.read(new File(
+						"imageItems/Ultimate_Orb_icon.png"));
+				GetImageItem.SOWizardry = ImageIO.read(new File(
+						"imageItems/Staff_of_Wizardry_icon.png"));
+				GetImageItem.BOAlacrity = ImageIO.read(new File(
+						"imageItems/Blade_of_Alacrity_icon.png"));
+				GetImageItem.OClub = ImageIO.read(new File(
+						"imageItems/Ogre_Club_icon.png"));
+				GetImageItem.SOVyse = ImageIO.read(new File(
+						"imageItems/Scythe_of_Vyse_icon.png"));
+				GetImageItem.Refresh = ImageIO.read(new File(
+						"imageItems/Refresher_Orb_icon.png"));
+				GetImageItem.Orchid = ImageIO.read(new File(
+						"imageItems/Orchid_Malevolence_icon.png"));
+				GetImageItem.Aghanim = ImageIO.read(new File(
+						"imageItems/Aghanim's_Scepter_icon.png"));
+				GetImageItem.Abyssal = ImageIO.read(new File(
+						"imageItems/Abyssal_Blade_icon.png"));
+				GetImageItem.Divine = ImageIO.read(new File(
+						"imageItems/Divine_Rapier_icon.png"));
+				GetImageItem.BFly = ImageIO.read(new File(
+						"imageItems/Butterfly_icon.png"));
+				GetImageItem.Daeda = ImageIO.read(new File(
+						"imageItems/Daedalus_icon.png"));
+				GetImageItem.HOT = ImageIO.read(new File(
+						"imageItems/Heart_of_Tarrasque_icon.png"));
+				GetImageItem.Assault = ImageIO.read(new File(
+						"imageItems/Assault_Cuirass_icon.png"));
+				GetImageItem.Linken = ImageIO.read(new File(
+						"imageItems/Linken's_Sphere_icon.png"));
+				GetImageItem.Bstone = ImageIO.read(new File(
+						"imageItems/Bloodstone_icon.png"));
+				GetImageItem.Satan = ImageIO.read(new File(
+						"imageItems/Satanic_icon.png"));
+				GetImageItem.Skadi = ImageIO.read(new File(
+						"imageItems/Eye_of_Skadi_icon.png"));
+				GetImageItem.Mjo = ImageIO.read(new File(
+						"imageItems/Mjollnir_icon.png"));
+				GetImageItem.SY = ImageIO.read(new File(
+						"imageItems/Sange_and_Yasha_icon.png"));
+				GetImageItem.Relic = ImageIO.read(new File(
+						"imageItems/Sacred_Relic_icon.png"));
+				GetImageItem.Eagle = ImageIO.read(new File(
+						"imageItems/Eaglesong_icon.png"));
+				GetImageItem.Reav = ImageIO.read(new File(
+						"imageItems/Reaver_icon.png"));
+				GetImageItem.MStaff = ImageIO.read(new File(
+						"imageItems/Mystic_Staff_icon.png"));
 				System.out.println("Anca");
 			} catch (IOException e) {
 			}
