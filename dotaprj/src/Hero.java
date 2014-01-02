@@ -1,33 +1,12 @@
 
-
-public class Heroes {
+public class Hero {
 
 	private String name;
 	private Long intelligence, strength, attackRange, damage, hitPoints, level,
 			mana, missileSpeed, moveSpeed, sightRange, agility;
 	private double armor, attackSpeed;
 
-	public Heroes() {
-	}
-
-	public Heroes(String name, Long intelligence, Long strength, Long agility,
-			Long attackRange, Long damage, Long hitPoints, Long level,
-			Long mana, Long missileSpeed, Long moveSpeed, Long sightRange,
-			double armor, double attackSpeed) {
-		this.name = name;
-		this.intelligence = intelligence;
-		this.strength = strength;
-		this.agility = agility;
-		this.attackRange = attackRange;
-		this.damage = damage;
-		this.hitPoints = hitPoints;
-		this.level = level;
-		this.mana = mana;
-		this.missileSpeed = missileSpeed;
-		this.moveSpeed = moveSpeed;
-		this.sightRange = sightRange;
-		this.armor = armor;
-		this.attackSpeed = attackSpeed;
+	public Hero() {
 	}
 
 	public String getName() {

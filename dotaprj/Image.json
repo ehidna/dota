@@ -1,5 +1,5 @@
 {
-    "imageList": [
+    "heroList": [
         "imageHeroes/axe_hphover.png",
         "imageHeroes/abaddon_hphover.png",
         "imageHeroes/antimage_hphover.png",
@@ -30,5 +30,31 @@
         "imageHeroes/phantom_assassin_hphover.png",
         "imageHeroes/obsidian_destroyer_hphover.png",
         "imageHeroes/zuus_hphover.png"
+    ],
+    "itemList": [
+        "imageItems/Ultimate_Orb_icon.png",
+        "imageItems/Staff_of_Wizardry_icon.png",
+        "imageItems/Blade_of_Alacrity_icon.png",
+        "imageItems/Ogre_Club_icon.png",
+        "imageItems/Scythe_of_Vyse_icon.png",
+        "imageItems/Refresher_Orb_icon.png",
+        "imageItems/Orchid_Malevolence_icon.png",
+        "imageItems/Aghanim's_Scepter_icon.png",
+        "imageItems/Abyssal_Blade_icon.png",
+        "imageItems/Divine_Rapier_icon.png",
+        "imageItems/Butterfly_icon.png",
+        "imageItems/Daedalus_icon.png",
+        "imageItems/Heart_of_Tarrasque_icon.png",
+        "imageItems/Assault_Cuirass_icon.png",
+        "imageItems/Linken's_Sphere_icon.png",
+        "imageItems/Bloodstone_icon.png",
+        "imageItems/Satanic_icon.png",
+        "imageItems/Eye_of_Skadi_icon.png",
+        "imageItems/Mjollnir_icon.png",
+        "imageItems/Sange_and_Yasha_icon.png",
+        "imageItems/Eaglesong_icon.png",
+        "imageItems/Sacred_Relic_icon.png",
+        "imageItems/Reaver_icon.png",
+        "imageItems/Mystic_Staff_icon.png"
     ]
 }
