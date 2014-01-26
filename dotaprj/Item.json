@@ -1,6 +1,6 @@
 {
     "Attributes": {
-        "UltimateOrb": {
+        "Ultimate_Orb": {
             "name": "UltimateOrb",
             "intelligence": 10,
             "strength": 10,
@@ -13,7 +13,7 @@
             "armor": 0,
             "attackSpeed": 0
         },
-        "StaffOfWizardry": {
+        "Staff_of_Wizardry": {
             "name": "StaffOfWizardry",
             "intelligence": 10,
             "strength": 0,
@@ -26,7 +26,7 @@
             "armor": 0,
             "attackSpeed": 0
         },
-        "BladeOfAlacrity": {
+        "Blade_of_Alacrity": {
             "name": "BladeOfAlacrity",
             "intelligence": 0,
             "strength": 0,
@@ -39,7 +39,7 @@
             "armor": 0,
             "attackSpeed": 0
         },
-        "OgreClub": {
+        "Ogre_Club": {
             "name": "OgreClub",
             "intelligence": 0,
             "strength": 10,
@@ -54,7 +54,7 @@
         }
     },
     "Caster": {
-        "ScytheOfVyse": {
+        "Scythe_of_Vyse": {
             "name": "ScytheOfVyse",
             "intelligence": 35,
             "strength": 10,
@@ -67,7 +67,7 @@
             "armor": 0,
             "attackSpeed": 0
         },
-        "RefresherOrb": {
+        "Refresher_Orb": {
             "name": "RefresherOrb",
             "intelligence": 6,
             "strength": 0,
@@ -80,7 +80,7 @@
             "armor": 0,
             "attackSpeed": 10
         },
-        "OrchidMalevolence": {
+        "Orchid_Malevolence": {
             "name": "OrchidMalevolence",
             "intelligence": 25,
             "strength": 0,
@@ -93,7 +93,7 @@
             "armor": 0,
             "attackSpeed": 30
         },
-        "AghanimsScepter": {
+        "Aghanim's_Scepter": {
             "name": "AghanimsScepter",
             "intelligence": 10,
             "strength": 10,
@@ -108,7 +108,7 @@
         }
     },
     "Weapons": {
-        "AbyssalBlade": {
+        "Abyssal_Blade": {
             "name": "AbyssalBlade",
             "intelligence": 0,
             "strength": 10,
@@ -121,7 +121,7 @@
             "armor": 0,
             "attackSpeed": 0
         },
-        "DivineRapier": {
+        "Divine_Rapier": {
             "name": "DivineRapier",
             "intelligence": 0,
             "strength": 0,
@@ -162,7 +162,7 @@
         }
     },
     "Armor": {
-        "HeartOfTarrasque": {
+        "Heart_of_Tarrasque": {
             "name": "HeartOfTarrasque",
             "intelligence": 0,
             "strength": 40,
@@ -175,7 +175,7 @@
             "armor": 0,
             "attackSpeed": 0
         },
-        "AssaultCuirass": {
+        "Assault_Cuirass": {
             "name": "AssaultCuirass",
             "intelligence": 0,
             "strength": 0,
@@ -188,7 +188,7 @@
             "armor": 15,
             "attackSpeed": 55
         },
-        "LinkensSphere": {
+        "Linken's_Sphere": {
             "name": "LinkensSphere",
             "intelligence": 15,
             "strength": 15,
@@ -229,7 +229,7 @@
             "armor": 5,
             "attackSpeed": 0
         },
-        "EyeOfSkadi": {
+        "Eye_of_Skadi": {
             "name": "EyeOfSkadi",
             "intelligence": 25,
             "strength": 25,
@@ -255,7 +255,7 @@
             "armor": 0,
             "attackSpeed": 80
         },
-        "SangeAndYasha": {
+        "Sange_and_Yasha": {
             "name": "SangeAndYasha",
             "intelligence": 0,
             "strength": 16,
@@ -270,7 +270,7 @@
         }
     },
     "SecretShop": {
-        "SacredRelic": {
+        "Sacred_Relic": {
             "name": "SacredRelic",
             "intelligence": 0,
             "strength": 0,
@@ -309,7 +309,7 @@
             "armor": 0,
             "attackSpeed": 0
         },
-        "MysticStaff": {
+        "Mystic_Staff": {
             "name": "MysticStaff",
             "intelligence": 25,
             "strength": 0,

@@ -1,6 +1,6 @@
 {
     "StrengthHero": {
-        "Axe": {
+        "axe": {
             "moveSpeed": 290,
             "strength": 25,
             "sightRange": 1800,
@@ -16,7 +16,7 @@
             "name": "Axe",
             "intelligence": 18
         },
-        "Abaddon": {
+        "abaddon": {
             "moveSpeed": 310,
             "strength": 23,
             "sightRange": 1800,
@@ -32,7 +32,7 @@
             "name": "Abaddon",
             "intelligence": 21
         },
-        "Huskar": {
+        "huskar": {
             "moveSpeed": 300,
             "strength": 21,
             "sightRange": 1800,
@@ -48,7 +48,7 @@
             "name": "Huskar",
             "intelligence": 18
         },
-        "Bristleback": {
+        "bristleback": {
             "moveSpeed": 295,
             "strength": 22,
             "sightRange": 1800,
@@ -64,7 +64,7 @@
             "name": "Bristleback",
             "intelligence": 14
         },
-        "Beastmaster": {
+        "beastmaster": {
             "moveSpeed": 310,
             "strength": 23,
             "sightRange": 1800,
@@ -80,7 +80,7 @@
             "name": "Beastmaster",
             "intelligence": 16
         },
-        "Omniknight": {
+        "omniknight": {
             "moveSpeed": 305,
             "strength": 20,
             "sightRange": 1800,
@@ -96,7 +96,7 @@
             "name": "Omniknight",
             "intelligence": 17
         },
-        "Tidehunter": {
+        "tidehunter": {
             "moveSpeed": 310,
             "strength": 22,
             "sightRange": 1800,
@@ -112,7 +112,7 @@
             "name": "Tidehunter",
             "intelligence": 16
         },
-        "Lycanthrope": {
+        "lycan": {
             "moveSpeed": 305,
             "strength": 22,
             "sightRange": 1800,
@@ -128,7 +128,7 @@
             "name": "Lycanthrope",
             "intelligence": 17
         },
-        "Pudge": {
+        "pudge": {
             "moveSpeed": 285,
             "strength": 25,
             "sightRange": 1800,
@@ -144,7 +144,7 @@
             "name": "Pudge",
             "intelligence": 14
         },
-        "Elder-Titan": {
+        "elder_titan": {
             "moveSpeed": 315,
             "strength": 24,
             "sightRange": 1800,
@@ -162,7 +162,7 @@
         }
     },
     "AgilityHero": {
-        "Anti-Mage": {
+        "antimage": {
             "moveSpeed": 315,
             "strength": 20,
             "sightRange": 1800,
@@ -178,7 +178,7 @@
             "name": "Anti-Mage",
             "intelligence": 15
         },
-        "Clinkz": {
+        "clinkz": {
             "moveSpeed": 300,
             "strength": 15,
             "sightRange": 1800,
@@ -194,7 +194,7 @@
             "name": "Clinkz",
             "intelligence": 16
         },
-        "Luna": {
+        "luna": {
             "moveSpeed": 330,
             "strength": 15,
             "sightRange": 1800,
@@ -210,7 +210,7 @@
             "name": "Luna",
             "intelligence": 16
         },
-        "Faceless-Void": {
+        "faceless_void": {
             "moveSpeed": 300,
             "strength": 23,
             "sightRange": 1800,
@@ -226,7 +226,7 @@
             "name": "Faceless-Void",
             "intelligence": 15
         },
-        "Slark": {
+        "slark": {
             "moveSpeed": 305,
             "strength": 21,
             "sightRange": 1800,
@@ -242,7 +242,7 @@
             "name": "Slark",
             "intelligence": 16
         },
-        "Phantom-Lancer": {
+        "phantom_lancer": {
             "moveSpeed": 290,
             "strength": 18,
             "sightRange": 1800,
@@ -258,7 +258,7 @@
             "name": "Phantom-Lancer",
             "intelligence": 21
         },
-        "Riki": {
+        "riki": {
             "moveSpeed": 300,
             "strength": 17,
             "sightRange": 1800,
@@ -274,7 +274,7 @@
             "name": "Riki",
             "intelligence": 14
         },
-        "Weaver": {
+        "weaver": {
             "moveSpeed": 290,
             "strength": 15,
             "sightRange": 1800,
@@ -290,7 +290,7 @@
             "name": "Weaver",
             "intelligence": 15
         },
-        "Venomancer": {
+        "venomancer": {
             "moveSpeed": 290,
             "strength": 18,
             "sightRange": 1800,
@@ -306,7 +306,7 @@
             "name": "Venomancer",
             "intelligence": 15
         },
-        "Phantom-Assassin": {
+        "phantom_assassin": {
             "moveSpeed": 310,
             "strength": 20,
             "sightRange": 1800,
@@ -324,7 +324,7 @@
         }
     },
     "IntelligenceHero": {
-        "Crystal-Maiden": {
+        "crystal_maiden": {
             "moveSpeed": 280,
             "strength": 16,
             "sightRange": 1800,
@@ -340,7 +340,7 @@
             "name": "Crystal-Maiden",
             "intelligence": 21
         },
-        "Silencer": {
+        "silencer": {
             "moveSpeed": 300,
             "strength": 17,
             "sightRange": 1800,
@@ -356,7 +356,7 @@
             "name": "Silencer",
             "intelligence": 21
         },
-        "Skywrath-Mage": {
+        "skywrath_mage": {
             "moveSpeed": 315,
             "strength": 19,
             "sightRange": 1800,
@@ -372,7 +372,7 @@
             "name": "Skywrath-Mage",
             "intelligence": 27
         },
-        "Ogre-Magi": {
+        "ogre_magi": {
             "moveSpeed": 295,
             "strength": 23,
             "sightRange": 1800,
@@ -388,7 +388,7 @@
             "name": "Ogre-Magi",
             "intelligence": 17
         },
-        "Queen-of-Pain": {
+        "queenofpain": {
             "moveSpeed": 300,
             "strength": 16,
             "sightRange": 1800,
@@ -404,7 +404,7 @@
             "name": "Queen-of-Pain",
             "intelligence": 24
         },
-        "Dazzle": {
+        "dazzle": {
             "moveSpeed": 305,
             "strength": 16,
             "sightRange": 1800,
@@ -420,7 +420,7 @@
             "name": "Dazzle",
             "intelligence": 27
         },
-        "Batrider": {
+        "batrider": {
             "moveSpeed": 290,
             "strength": 23,
             "sightRange": 1800,
@@ -436,7 +436,7 @@
             "name": "Batrider",
             "intelligence": 23
         },
-        "Lich": {
+        "lich": {
             "moveSpeed": 315,
             "strength": 18,
             "sightRange": 1800,
@@ -452,7 +452,7 @@
             "name": "Lich",
             "intelligence": 18
         },
-        "Outworld-Devourer": {
+        "obsidian_destroyer": {
             "moveSpeed": 315,
             "strength": 19,
             "sightRange": 1800,
@@ -468,7 +468,7 @@
             "name": "Outworld-Devourer",
             "intelligence": 26
         },
-        "Zeus": {
+        "zuus": {
             "moveSpeed": 295,
             "strength": 19,
             "sightRange": 1800,

@@ -18,7 +18,7 @@ import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class GetImageHero extends JFrame {
+public class HeroGalleryView extends JFrame {
 
 	private static BufferedImage Axe, Abaddon, AntiMage, Clinkz, CrystalMaiden,
 			Silencer, Huskar, Bristleback, Luna, FacelessVoid, SkywrathMage,
@@ -28,7 +28,7 @@ public class GetImageHero extends JFrame {
 			ObsidianDestroyer, Zuus;
 	private BufferedImage image;
 
-	public GetImageHero() {
+	public HeroGalleryView() {
 		imageShowing p = new imageShowing();
 
 		JPanel pnlTools = new JPanel();
@@ -163,70 +163,71 @@ public class GetImageHero extends JFrame {
 
 		public imageShowing() {
 			try {
-				GetImageHero.Axe = ImageIO.read(new File(
+				HeroGalleryView.Axe = ImageIO.read(new File(
 						"imageHeroes/axe_hphover.png"));
-				GetImageHero.Abaddon = ImageIO.read(new File(
+				HeroGalleryView.Abaddon = ImageIO.read(new File(
 						"imageHeroes/abaddon_hphover.png"));
-				GetImageHero.AntiMage = ImageIO.read(new File(
+				HeroGalleryView.AntiMage = ImageIO.read(new File(
 						"imageHeroes/antimage_hphover.png"));
-				GetImageHero.Clinkz = ImageIO.read(new File(
+				HeroGalleryView.Clinkz = ImageIO.read(new File(
 						"imageHeroes/clinkz_hphover.png"));
-				GetImageHero.CrystalMaiden = ImageIO.read(new File(
+				HeroGalleryView.CrystalMaiden = ImageIO.read(new File(
 						"imageHeroes/crystal_maiden_hphover.png"));
-				GetImageHero.Silencer = ImageIO.read(new File(
+				HeroGalleryView.Silencer = ImageIO.read(new File(
 						"imageHeroes/silencer_hphover.png"));
 
-				GetImageHero.Huskar = ImageIO.read(new File(
+				HeroGalleryView.Huskar = ImageIO.read(new File(
 						"imageHeroes/huskar_hphover.png"));
-				GetImageHero.Bristleback = ImageIO.read(new File(
+				HeroGalleryView.Bristleback = ImageIO.read(new File(
 						"imageHeroes/bristleback_hphover.png"));
-				GetImageHero.Luna = ImageIO.read(new File(
+				HeroGalleryView.Luna = ImageIO.read(new File(
 						"imageHeroes/luna_hphover.png"));
-				GetImageHero.FacelessVoid = ImageIO.read(new File(
+				HeroGalleryView.FacelessVoid = ImageIO.read(new File(
 						"imageHeroes/faceless_void_hphover.png"));
-				GetImageHero.SkywrathMage = ImageIO.read(new File(
+				HeroGalleryView.SkywrathMage = ImageIO.read(new File(
 						"imageHeroes/skywrath_mage_hphover.png"));
-				GetImageHero.OgreMagi = ImageIO.read(new File(
+				HeroGalleryView.OgreMagi = ImageIO.read(new File(
 						"imageHeroes/ogre_magi_hphover.png"));
 
-				GetImageHero.Beastmaster = ImageIO.read(new File(
+				HeroGalleryView.Beastmaster = ImageIO.read(new File(
 						"imageHeroes/beastmaster_hphover.png"));
-				GetImageHero.Omniknight = ImageIO.read(new File(
+				HeroGalleryView.Omniknight = ImageIO.read(new File(
 						"imageHeroes/omniknight_hphover.png"));
-				GetImageHero.Slark = ImageIO.read(new File(
+				HeroGalleryView.Slark = ImageIO.read(new File(
 						"imageHeroes/slark_hphover.png"));
-				GetImageHero.PhantomLancer = ImageIO.read(new File(
+				HeroGalleryView.PhantomLancer = ImageIO.read(new File(
 						"imageHeroes/phantom_lancer_hphover.png"));
-				GetImageHero.QueenOfPain = ImageIO.read(new File(
+				HeroGalleryView.QueenOfPain = ImageIO.read(new File(
 						"imageHeroes/queenofpain_hphover.png"));
-				GetImageHero.Dazzle = ImageIO.read(new File(
+				HeroGalleryView.Dazzle = ImageIO.read(new File(
 						"imageHeroes/dazzle_hphover.png"));
 
-				GetImageHero.Tidehunter = ImageIO.read(new File(
+				HeroGalleryView.Tidehunter = ImageIO.read(new File(
 						"imageHeroes/tidehunter_hphover.png"));
-				GetImageHero.Lycan = ImageIO.read(new File(
+				HeroGalleryView.Lycan = ImageIO.read(new File(
 						"imageHeroes/lycan_hphover.png"));
-				GetImageHero.Riki = ImageIO.read(new File(
+				HeroGalleryView.Riki = ImageIO.read(new File(
 						"imageHeroes/riki_hphover.png"));
-				GetImageHero.Weaver = ImageIO.read(new File(
+				HeroGalleryView.Weaver = ImageIO.read(new File(
 						"imageHeroes/weaver_hphover.png"));
-				GetImageHero.Batrider = ImageIO.read(new File(
+				HeroGalleryView.Batrider = ImageIO.read(new File(
 						"imageHeroes/batrider_hphover.png"));
-				GetImageHero.Lich = ImageIO.read(new File(
+				HeroGalleryView.Lich = ImageIO.read(new File(
 						"imageHeroes/lich_hphover.png"));
 
-				GetImageHero.Pudge = ImageIO.read(new File(
+				HeroGalleryView.Pudge = ImageIO.read(new File(
 						"imageHeroes/pudge_hphover.png"));
-				GetImageHero.ElderTitan = ImageIO.read(new File(
+				HeroGalleryView.ElderTitan = ImageIO.read(new File(
 						"imageHeroes/elder_titan_hphover.png"));
-				GetImageHero.Venomancer = ImageIO.read(new File(
+				HeroGalleryView.Venomancer = ImageIO.read(new File(
 						"imageHeroes/venomancer_hphover.png"));
-				GetImageHero.PhantomAssassin = ImageIO.read(new File(
+				HeroGalleryView.PhantomAssassin = ImageIO.read(new File(
 						"imageHeroes/phantom_assassin_hphover.png"));
-				GetImageHero.ObsidianDestroyer = ImageIO.read(new File(
+				HeroGalleryView.ObsidianDestroyer = ImageIO.read(new File(
 						"imageHeroes/obsidian_destroyer_hphover.png"));
-				GetImageHero.Zuus = ImageIO.read(new File(
+				HeroGalleryView.Zuus = ImageIO.read(new File(
 						"imageHeroes/zuus_hphover.png"));
+				
 			} catch (IOException e) {
 			}
 		}
@@ -240,7 +241,7 @@ public class GetImageHero extends JFrame {
 			g.drawImage(Clinkz, 421, 55, null);
 			g.drawImage(CrystalMaiden, 558, 55, null);
 			g.drawImage(Silencer, 695, 55, null);
-
+			
 			g.drawImage(Huskar, 10, 142, null);
 			g.drawImage(Bristleback, 147, 142, null);
 			g.drawImage(Luna, 284, 142, null);
